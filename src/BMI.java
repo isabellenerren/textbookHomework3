@@ -29,7 +29,7 @@ public class BMI {
         if (a == true)
         {
             String interpretation = "Underweight";
-            System.out.println(interpretation);
+            System.out.println("BMI Interpretation = " + interpretation);
         }
         else if (b == true)
         {
@@ -39,12 +39,12 @@ public class BMI {
         else if (c == true)
         {
             String interpretation = "Overweight";
-            System.out.println(interpretation);
+            System.out.println("BMI Interpretation = " + interpretation);
         }
         else
         {
             String interpretation = "Obese";
-            System.out.println(interpretation);
+            System.out.println("BMI Interpretation = " + interpretation);
         }
     }
 }
